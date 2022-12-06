@@ -20,4 +20,17 @@ ol li ol li{list-style-type: lower-latin;}
 ol li ol li ol li{list-style-type: lower-roman;}
 
 /* Exercice 5 */
-nav a{background-color: lightblue; padding: 10px;font-family: helvetica;letter-spacing: 3px;text-align: center;}
+nav::before{content: "MENU: ";background-color: lightblue; 
+	padding: 15px;
+	font-family: helvetica;
+	letter-spacing: 3px;
+	font-size: 16pt;}
+nav{background-color: lightblue; 
+	padding: 15px;
+	font-family: helvetica;
+	letter-spacing: 3px;
+	text-align: left;
+	font-size: 16pt;}
+nav{
+   white-space: pre-wrap;
+}
