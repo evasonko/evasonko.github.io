@@ -1,0 +1,23 @@
+/* Exercice 1 */
+body{background-image: url(cement.jpg);}
+h1{text-align: center;}
+h2{color: blue; background-color: grey;}
+p{margin-left: 16px; text-align: justify;}
+
+/* Exercice 2 */
+
+.surligne{background-color:seashell;}
+
+
+/* Exercice 3 */
+p.surligne{background-color: seashell;}
+span.surligne{background-color: yellow;}
+div.surligne{background-color: slateblue;}
+
+/* Exercice 4 */
+ol li{list-style-type: upper-roman;}
+ol li ol li{list-style-type: lower-latin;}
+ol li ol li ol li{list-style-type: lower-roman;}
+
+/* Exercice 5 */
+nav a{background-color: lightblue; padding: 10px;font-family: helvetica;letter-spacing: 3px;text-align: center;}
