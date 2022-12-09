@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Demande de droits</title>
+	<link rel="stylesheet" type="text/css" href="generateurstyle.css">
+	<link rel="stylesheet" type="text/css" href="print.css" media="print">
+</head>
+
+<body>
+	<div class="formulaire">
+		<h2> Générez votre demande de droit</h2>
+		<h3> Informations personnelles </h3>
+
+		<form action="#">
+			<label class="noprint"> Prénom </label>
+			<br>
+			<input type="text" placeholder="Robin" class=form-prénom required>
+			<br>
+			<label class="noprint"> Nom </label>
+			<br>
+			<input type="text" placeholder="Dupont" class=form-nom required>
+			<br>
+			<label class="noprint"> E-mail</label>
+			<br>
+			<input type="text" placeholder="monemail@mail.fr" class=form-email required>
+			<br>
+			
+			<h3> Catégorie sociale </h3>
+			<br>
+<fieldset>
+    <legend class="noprint">Quelle est votre categorie sociale ?</legend>
+<br>
+    <div>
+      <input type="checkbox" class="cocher" name="student" value="student">
+      <label for="etudiant">Etudiant</label>
+    </div>
+
+    <div>
+      <input type="checkbox" class="cocher" name="admin" value="admin">
+      <label for="admin">Administration</label>
+    </div>
+
+    <div>
+      <input type="checkbox" class="cocher" name="professeurs" value="professeurs">
+      <label for="professeurs">Professeur</label>
+    </div>
+</fieldset>
+
+<br>
+	<h3>Exercer vos droits</h3>
+	<br>
+
+	<div>
+<select name="sujet" class="derouler">
+<option value="choix" disabled selected>Avez-vous déjà tenté d'exercer vos droits ?</option>
+    <option class="derouler" value="oui">Oui</option>
+    <option class="derouler" value="difficiile"> Oui, mais avec beaucoup de difficultés</option>
+    <option class="derouler" value="non">Non</option>
+    <option class="derouler" value="autre"> Ne souhaite pas répondre</option>
+</select>
+
+<br>
+	<fieldset>
+    <legend>Quels droits voulez-vous exercer ?</legend>
+<br>
+    <div>
+      <input type="checkbox" class="cocher" name="student" value="student">
+      <label for="etudiant">Suppression</label>
+    </div>
+
+    <div>
+      <input type="checkbox" class="cocher" name="admin" value="admin">
+      <label for="admin">Anonymisation</label>
+    </div>
+
+    <div>
+      <input type="checkbox" class="cocher" name="professeurs" value="professeurs">
+      <label for="professeurs">Minimisation</label>
+    </div>
+</fieldset>
+
+<input type="submit" id="noprint" class="submit">
+	
+
+
+	</form>
+
+
+
+</body>
+</html>

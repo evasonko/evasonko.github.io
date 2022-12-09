@@ -1,7 +1,7 @@
 p{font-size: 12pt; color: white;}
 h1{font-size: 3em;color: yellowgreen; background: black;}
 a#id1{color: yellowgreen;}
-body{font-family: helvetica;background: slateblue;}
+body{font-family: helvetica;background: paleturquoise;}
 div * p {color:red;}
 div * li {color:yellowgreen;}
 .menu li .sel {font-size:14pt;color: orange;}

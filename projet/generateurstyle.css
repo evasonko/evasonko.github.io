@@ -1,0 +1,95 @@
+* {
+	margin:  0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+
+}
+
+body {
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	width:  100%;
+	background-color: #18f;
+}
+
+.formulaire {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: 20pt;
+	color: #fff;
+}
+
+h3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+	margin-top: 20pt;
+	margin-bottom: 8pt;
+
+}
+
+form {
+	width: 350px;
+	display: felx;
+	flex-direction: column;
+
+}
+
+form label {
+	font-size: 17px;
+	color: #fff ;
+}
+
+form input {
+	padding: 8px;
+	font-size: 15px;
+	margin-bottom: 10px;
+	outline: 0;
+}
+
+.submit {
+	margin-top: 35px;
+	color: lightseagreen;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 6px;
+	cursor: pointer;
+	margin-bottom: 20pt;
+
+}
+
+.submit:hover {
+	background-color: lightseagreen;
+	color:  #fff;
+}
+
+fieldset {
+	border-radius: 10px;
+	border: solid #fff;
+}
+
+select {
+	margin-bottom: 20pt;
+}
+
+input.cocher {
+	width: 10pt;
+	height: 10pt;
+	margin-left: 10pt;
+}
+
+.derouler {
+	width: 22em;
+	height: 30px;
+	margin-left: 0;
+}
