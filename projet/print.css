@@ -4,7 +4,38 @@ style lettre
 formater pour que certaines choses n'apparaissent pas et que d'autre apparaissent ex formule de remerciement
 conserver uniquement les options cochées*/
 
-#noprint {
-  display: none;
+h3, h4, button {
+  display:  none;}
+
+p.titre{
+  display: contents;
 }
+
+p.lettre#emetteur{
+  display: contents;
+  display: flex;
+  flex-direction: column;
+}
+
+
+p.lettre#destinataire{
+  display: contents;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+p.objet{
+  display: contents;
+}
+
+
+section#contact .container {
+  box-shadow: none;
+}
+
+#newpage {
+  page-break-before: auto;
+}
+
 

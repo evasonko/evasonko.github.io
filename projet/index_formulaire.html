@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Formulaire de demande </title>
+	<link rel="stylesheet" type="text/css" href="formulairestyle.css" media="all">
+	<link rel="stylesheet" type="text/css" href="print.css" media="print">
+</head>
+
+<body>
+
+	<p class="lettre" id="emetteur">............................</p>
+	<p class="lettre" id="emetteur">............................</p>
+	<p class="lettre" id="emetteur">............................</p>
+
+	<p class="lettre" id="destinataire">............................</p>
+	<p class="lettre" id="destinataire">............................</p>
+	<p class="lettre" id="destinataire">............................</p>
+
+	<p class="objet">Objet: ...................................</p>
+
+<section id="contact">
+
+	<div class="container">
+
+	<div class="title">
+		<h3> Nous vous crééons une demande de droit !</h3>
+		<h4> Indiquez vos informations </h4>
+	</div>
+	
+	<p class="titre"> Mes informations personnelles </p>
+
+	<form action="#" method="post">
+		<input class="infos" type="text" name="name" placeholder="Entrez votre prénom" required>
+		<input class="infos" type="text" name="surname" placeholder="Entrez votre nom" required>
+		<input class="infos" type="email" name="email" placeholder="Entrez votre email" required>
+		<br>
+
+
+	<div class="question">
+		<h4 > Quels droits voulez-vous exercer ?</h4>
+	</div>
+		
+		<p class="titre"> Le(s) droit(s) que je souhaite exercer</p>
+		<br>
+<fieldset class="fieldset">
+		<div class="cocher" id="box"><input type="checkbox" >Suppression</div>
+		<div class="cocher" id="box"><input type="checkbox" >Anonymisation</div>
+		<div class="cocher" id="box"><input type="checkbox" >Minimisation</div>
+		<div class="cocher" id="box"><input type="checkbox" >Portabilité</div>
+		<div class="cocher" id="box"><input type="checkbox" >Accès</div>
+		<div class="cocher" id="box"><input type="checkbox" >Rectification</div>
+		<div class="cocher" id="box"><input type="checkbox" >Limitation</div>
+</fieldset>
+	<br>
+	<div class="question" id="newpage"> <!-- Trouver solution pour saut de page -->
+		<h4 > Vous pouvez écrire un message personnalisé </h4>
+	</div>
+
+	<p class="titre"> Mon message personnalisé </p>
+<textarea name="message" placeholder="Entrez votre message (maximum 500 caractères)" maxlength="500"></textarea>
+<!-- Trouver solution pour enlever tiret déroulant quand message dépasse cadre -->
+
+<br>
+		<button type="submit" onclick="window.print();"> Imprimer </button>
+		
+	</form>
+
+	</div>
+	
+</section>
+
+
+</body>
+
+</html>

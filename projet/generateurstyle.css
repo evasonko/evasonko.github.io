@@ -50,14 +50,15 @@ form label {
 	color: #fff ;
 }
 
-form input {
+form input, button {
 	padding: 8px;
 	font-size: 15px;
 	margin-bottom: 10px;
 	outline: 0;
 }
 
-.submit {
+
+button {
 	margin-top: 35px;
 	color: lightseagreen;
 	background-color: #fff;
@@ -67,8 +68,7 @@ form input {
 	margin-bottom: 20pt;
 
 }
-
-.submit:hover {
+button:hover {
 	background-color: lightseagreen;
 	color:  #fff;
 }

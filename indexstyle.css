@@ -1,0 +1,10 @@
+p{font-size: 12pt; color: white;}
+h1{font-size: 3em;color: yellowgreen; background: black;}
+a#id1{color: yellowgreen;}
+body{font-family: helvetica;background: paleturquoise;}
+div * p {color:red;}
+div * li {color:yellowgreen;}
+.menu li .sel {font-size:14pt;color: orange;}
+#menu > p{color:yellow;}
+h2 + p {margin-top:15em}
+h1.opener + h2{margin-top: -3mm}
