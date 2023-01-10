@@ -49,6 +49,15 @@ h1,h2,h3, .imprimer{
   margin-top: 1em;
  }
 
+.moi, textarea, .derouler, .cocher {
+border: none}
+
+input[type="checkbox"]{
+  display: none
+}
+
+input[type="checkbox"]:checked{content: "- "}
+
 }
 
 
