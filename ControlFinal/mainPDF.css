@@ -1,0 +1,54 @@
+@media print {
+
+.pagebreak {
+  page-break-before: always;
+}
+
+div.lettre#emetteur{
+  display: contents;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+
+div.lettre#destinataire{
+  display: contents;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-bottom: 1em;
+}
+
+div.objet{
+  display: contents;
+  margin-bottom: 5em;
+}
+
+div.lieu{
+  display: contents;
+  margin-bottom: 1em;
+}
+
+.appel{
+  display: contents;
+  margin-bottom: 1em;
+}
+
+h1,h2,h3, .imprimer{ 
+  display: none; 
+ }
+
+.delais, .infos, .politesse, .presentation{ 
+  display: contents; 
+ }
+
+.signature{ 
+  display: contents;
+  text-align: right;
+  margin-top: 1em;
+ }
+
+}
+
+

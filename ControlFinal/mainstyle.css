@@ -1,0 +1,61 @@
+* {
+	font-family: helvetica;
+}
+
+div.lettre#emetteur { 
+	display: none; 
+	text-align: left;
+	color: black;
+
+ }
+
+div.lettre#destinataire { 
+	display: none; 
+	text-align: right;
+	color: black;
+
+ }
+
+div.objet { 
+	display: none; 
+	text-align: left;
+	color: black;
+ }
+
+div.lieu{ 
+	display: none; 
+	text-align: right;
+	color: black;
+
+
+ }
+
+.delais, .infos, .presentation, .politesse, .signature, .appel{ 
+	display: none; 
+ }
+
+textarea {
+	width: 70%;
+}
+
+.moi, .derouler{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.imprimer{
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: darkred;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  outline: none;
+  margin: 0 auto;
+  align-items: center;
+}

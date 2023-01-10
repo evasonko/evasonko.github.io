@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Controle Final 10 janvier 2023</title>
+	<link rel="stylesheet" type="text/css" href="mainstyle.css">
+	<link rel="stylesheet" type="text/css" href="mainPDF.css" media="print">
+</head>
+<body>
+
+<img src="logoUPEC.jpg" width="200" height="100" >
+
+<!--LETTRE-->
+
+	<div class="lettre" id="emetteur">.........................................</div>
+	<div class="lettre" id="emetteur">.........................................</div>
+	<div class="lettre" id="emetteur">.........................................</div>
+<br>
+	<div class="lettre" id="destinataire">.........................................</div>
+	<div class="lettre" id="destinataire">.........................................</div>
+	<div class="lettre" id="destinataire">.........................................</div>
+<br>
+	<div class="lieu"> Fait à......................le......................</div>
+<br>
+	<div class="objet">Objet: ...................................</div>
+<br>
+	<div class="appel">[Madame, Monsieur]</div>
+<br>
+	<div class="presentation"> Actuellement [catégorie sociale], je souhaiterais exercer [droits que la personne souhaite exercer] et plus précisément sur : </div> 
+
+	<!-- entre les crochets : insérer les éléments séléctionnés dans les boutons -->
+
+<!--TITRES-->
+<h1>Générez votre demande de droits</h1>
+<h2>Veuillez remplir les informations ci-dessous</h2>
+
+
+<!-- CONTENU-->
+
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
+
+	<!-- PRESENTATION -->
+
+<h3>Vos informations personnelles</h3>
+	<input class="moi" type="text" name="name" placeholder="Entrez votre prénom" required>
+	<input class="moi" type="text" name="surname" placeholder="Entrez votre nom" required>
+	<input class="moi" type="email" name="email" placeholder="Entrez votre email" required>
+
+
+<h3>Quelle est votre catégorie sociale ?</h3>
+<select name="sujet" class="derouler">
+<option value="choix" disabled selected>Sélectionnez votre catégorie sociale</option>
+    <option class="derouler" value="oui">Etudiant</option>
+    <option class="derouler" value="difficiile">Professeur</option>
+    <option class="derouler" value="non">Administration</option>
+    <option class="derouler" value="autre"> Ne souhaite pas répondre</option>
+</select>
+
+
+	<!-- DROITS-->
+<h3>Quels droits souhaitez-vous exercer ?</h3>
+	<div class="cocher"><input type="checkbox" >Suppression</div>
+	<div class="cocher"><input type="checkbox" >Anonymisation</div>
+	<div class="cocher"><input type="checkbox" >Minimisation</div>
+	<div class="cocher"><input type="checkbox" >Portabilité</div>
+	<div class="cocher"><input type="checkbox" >Accès</div>
+	<div class="cocher"><input type="checkbox" >Rectification</div>
+	<div class="cocher"><input type="checkbox" >Limitation</div>
+<br>
+<!-- TEXTAREA-->
+<textarea name="message" placeholder="Vous pouvez préciser et ajouter des détails à votre demande de droits">
+</textarea>
+
+<h3>Civilité de votre destinataire</h3>
+<select name="sujet" class="derouler">
+<option value="choix" disabled selected>Sélectionnez la civilité</option>
+    <option class="derouler" value="oui">Madame</option>
+    <option class="derouler" value="difficiile">Monsieur</option>
+    <option class="derouler" value="difficiile">Ne sais pas (insérer "Madame, Monsieur")</option>
+</select>
+
+<button class="imprimer" type="submit" onclick="window.print();"> Imprimer ma demande</button>
+
+<div class="pagebreak">
+<div class="delais"> Je vous remercie de me faire parvenir votre réponse dans les meilleurs délais et au plus tard dans un délai d’un mois à compter de la réception de ma demande (article 12.3 du RGPD).
+
+A défaut de réponse de votre part dans les délais impartis ou en cas de réponse incomplète, je me réserve la possibilité de saisir la Commission nationale de l’informatique et des libertés (CNIL) d’une réclamation ainsi que la Commission d'accès aux documents administratifs.</div>
+
+
+<div class="infos"> A toutes fins utiles, vous trouverez des informations sur le site internet de la CNIL : https://www.cnil.fr/fr/professionnels-comment-repondre-une-demande-de-droit-dacces ; ainsi que sur celui de la CADA : https://www.cada.fr/administration/la-communication-des-documents-administratifs </div>
+</div>
+
+<!--LETTRE-->
+<div class="politesse"> Je vous prie d’agréer, [Monsieur/Madame], l’expression de mes salutations distinguées.</div>
+<!-- entre les crochets : insérer les éléments séléctionnés dans les boutons -->
+
+<div class="signature"> Signature</div>
+</pre>
+
+</body>
+</html>
